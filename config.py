@@ -23,8 +23,8 @@ API_HASH = environ.get("API_HASH", "d927c13beaaf5110f25c505b7c071273")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6595741390').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "Bfowjdksbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
